@@ -25,7 +25,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-igv4hd=yk+pilb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['https://mdn-django-deploy-production.up.railway.app/', '127.0.0.1']
+ALLOWED_HOSTS = ['https://mdn-django-deploy-production.up.railway.app', 
+                 'http://mdn-django-deploy-production.up.railway.app/',
+                 '127.0.0.1']
 
 
 # Application definition
