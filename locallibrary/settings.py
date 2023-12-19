@@ -29,6 +29,8 @@ ALLOWED_HOSTS = ['https://mdn-django-deploy-production.up.railway.app',
                  'https://mdn-django-deploy-production.up.railway.app/',
                  'http://mdn-django-deploy-production.up.railway.app/',
                  'http://mdn-django-deploy-production.up.railway.app',
+                 'mdn-django-deploy-production.up.railway.app/',
+                 'mdn-django-deploy-production.up.railway.app',
                  '127.0.0.1']
 
 
