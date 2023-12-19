@@ -158,4 +158,8 @@ STORAGES = {
     },
 }
 
-CSRF_TRUSTED_ORIGINS = ['https://mdn-django-deploy-production.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://mdn-django-deploy-production.up.railway.app/',
+                        'https://mdn-django-deploy-production.up.railway.app',
+                        'mdn-django-deploy-production.up.railway.app/',
+                        'mdn-django-deploy-production.up.railway.app',                        
+                        ]
