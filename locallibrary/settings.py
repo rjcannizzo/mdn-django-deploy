@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-igv4hd=yk+pilb
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = ['https://mdn-django-deploy-production.up.railway.app', 
-                 'http://mdn-django-deploy-production.up.railway.app/',
+                 'https://mdn-django-deploy-production.up.railway.app/',
                  '127.0.0.1']
 
 
